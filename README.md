@@ -8,7 +8,7 @@ Download the playable Windows build from [Releases](https://github.com/VM934/Neu
 
 ## Download and play
 
-1. Download **NeuroSignal-SignalRecovery-Windows-20261031-140655.zip** from the assets below (approximately 414 MB).
+1. Download the [playable Windows ZIP](https://github.com/VM934/NeuroSignal-Play/releases/download/v0.3.0-playtest.1/NeuroSignal-SignalRecovery-Windows-20261031-140655.zip) (approximately 414 MB). Its filename is **NeuroSignal-SignalRecovery-Windows-20261031-140655.zip**. GitHub's automatic **Source code** archives do not contain the playable game.
 2. Extract the complete ZIP to a local folder. Keep its Windows folder and all supporting files together.
 3. Double-click **Play NeuroSignal.cmd** and choose **Deploy solo**. Unreal Editor and Visual Studio are not required to play.
 4. Read **READ ME FIRST.txt** for requirements and the included prerequisite installers if a required runtime is missing.
@@ -26,6 +26,8 @@ Up to three players can share a mission. Every player needs the same version. On
 ## Verification and current limits
 
 The exact packaged executable completed rendered solo routes at 1920x1080 and 1280x720 and a host/two-client co-op test using three processes on one Windows laptop. Separate physical PCs, Internet co-op, physical controllers, stable frame-rate targets and learning outcomes have not been verified. These checks do not establish compatibility with every PC. The release is a playtest, with prototype geometry and animation.
+
+**Known exit-delay observation:** one 1080p test completed the mission but took about 153 seconds from requesting exit to logging that it was exiting, exceeding the test's overall deadline. A repeat using the same executable exited normally in about 1.5 seconds. Closing-time behavior still needs broader testing; this observation is not evidence of a mission crash or a confirmed graphics-driver cause.
 
 The educational examples are synthetic. Optional explanations support learning; this is not a clinical simulator. Unreal Engine and Epic template assets are used alongside original game code and educational content. The public package contains the playable build; editable project source is maintained separately.
 
