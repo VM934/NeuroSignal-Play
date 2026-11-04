@@ -1,45 +1,45 @@
 # NeuroSignal: Signal Recovery
 
-Defend a fictional drug-study archive, then work out what its recovered evidence actually supports. NeuroSignal is an original first-person mission combining cybersecurity, neuroscience and pharmacology. Play solo or with up to two friends using direct-IP Windows co-op.
+Protect a fictional research archive, stop hostile drones and check what its records actually support. This original Windows first-person playtest combines action, cybersecurity, neuroscience and pharmacology for **one to three players**.
 
 ## Download and play
 
-Open the [latest Windows playtest](https://github.com/VM934/NeuroSignal-Play/releases/latest), currently **0.4.1-playtest.1**, and download **NeuroSignal-SignalRecovery-Windows-20261103-190508.zip** under Assets. Extract the entire ZIP, then double-click **Play NeuroSignal.cmd**. Keep every file together. Playing needs no GitHub login, Unreal Editor, compiler, AI model or AI subscription. GitHub's automatic source archives are not the playable game.
+Open the [latest Windows release](https://github.com/VM934/NeuroSignal-Play/releases/latest). For **0.5.0-playtest.1**, download **NeuroSignal-SignalRecovery-Windows-20261104-180432.zip** under Assets, extract every file and double-click **Play NeuroSignal.cmd**. Choose **Deploy solo** to start. GitHub's automatic source archives are not the playable game.
 
-The ZIP includes controls, Microsoft runtime installers, a source-linked learning guide, credits and file hashes. All co-op players must use the same complete release.
+Playing needs no editor, compiler, Epic account, GitHub login, AI model or subscription. The ZIP includes controls, runtime installers, learning sources and file hashes. Both launchers select **1080p, 100% 3D scale, FXAA, GI 1 and a 30 FPS cap**.
 
-## Larger field notes in 0.4.1
+## Understand the mission
 
-Science and Cybersecurity now have separate full-width pages with larger body text, a visible page counter and keyboard, controller and mouse navigation. After solving an investigation, press Tab / controller View to open Science; use Left/Right or D-pad Left/Right to turn pages. Discussion stays visible on both pages. Enter / controller A marks only your own review ready. Paging preserves answers, evidence progress and readiness.
+**Win:** clear three drone waves and check all three records. **Lose:** the archive reaches 0% or the whole squad goes down.
 
-The three fictional investigations connect record integrity, neural-recording quality and matched carrier controls to the evidence needed for a pharmacological claim. They distinguish agonists and antagonists, binding and functional action, target-site exposure and clinical benefit. Research security topics include phishing-resistant authentication, least privilege, protected audit records, recovery, neural-data privacy and treating untrusted report content as data. Sources retain their November 2, 2026 review date. All compounds and measurements are fictional; no real doses or treatment recommendations are supplied.
+Follow **clear drones → central console → decide from evidence → read the result → everyone ready**. The HUD shows your NEXT action and records checked. Wrong answers give hints and retries without damage. Evidence has **no answer timer**; every connected player marks their own review ready.
 
-## Measured profile and checks
+WASD/mouse moves/looks; left/right mouse fires/aims; R reloads; E uses the console or revives nearby teammates. Shift sprints, Space jumps and C/Ctrl crouches; crouch while sprinting on the ground to slide. Esc opens the menu. Xbox-style mappings are documented in the ZIP.
 
-Both launchers select **1920x1080, 100% 3D render scale, FXAA, GI quality 1 and a 30 FPS cap**. On the target ASUS UX581GV (i9-9980HK, RTX 2060 6 GB, 32 GB RAM), this executable completed six automated solo missions in approximately five minutes. Across 65.401 seconds of aggregate combat, it averaged **30.000 FPS**, p95 **33.944 ms**, p99 **34.293 ms**, maximum **34.865 ms**, with **zero of 1,962 combat frames over 50 ms**. Startup, shutdown and all declared pacing goals passed. This is a short solo regression; the previous release's longer benchmark does not validate this executable.
+Local firing sound/tracers are separate from server-confirmed **HIT** and **DRONE NEUTRALIZED** feedback. Dark label panels improve contrast; a tracer alone does not confirm damage.
 
-The current build passed **106 distinct input checks and 14 evidence checks**, a host/two-client loopback mission with both remote slide fixtures, and actual extracted-ZIP solo routes at 720p and 1080p. Every role exercised both note pages of every investigation. All **30 captured screens** were individually inspected, with no blocking clipping or overlap. Game processes exited normally. See the release's **FINAL-VERIFICATION.json** and screenshots for exact scope.
+## Learn through everyday questions
 
-The player ZIP is **413,927,286 bytes**, SHA-256:
+After solving a record, **Tab / controller View** opens larger field notes. **Left/Right / D-pad Left/Right** changes Science/Cybersecurity pages; **Enter / controller A** marks ready. Paging never advances the squad.
 
-```text
-18DE71A3A8BAFDA7D95DA299D58DCF6FB82AC1AF1CEB44DA338B9B8816DF7118
-```
+**Cybersecurity** discussions practice verifying unexpected college device-code requests, keeping AI-read documents from authorizing private-file uploads, and proving an assignment backup restores. Notes also cover app permissions, phishing-resistant authentication, supported software and known exploitation.
 
-All **56 payload files plus FILE-HASHES.csv** were verified in the actual ZIP and extracted copy. A public download without authentication returned HTTP 200 and exactly the same bytes/hash. All eight initially uploaded release assets also matched GitHub's server SHA-256 digests. Native executable SHA-256: `03E4281334FFA48186C78DF50533B6774B3350B7DBDD84E70436B8983D489664`.
+**Science** discussions examine an urgent clinic text, a sleep-app change after a supplement, and a memory advertisement. Labeled real-2026 cases distinguish [FDA device-security guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-management-system-considerations-and-content-premarket), [one participant's investigational speech BCI](https://www.nih.gov/news-events/nih-research-matters/brain-computer-device-helps-man-speak), and [Zanvastro's specific Alexander-disease approval](https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease).
 
-## Play together
+Sources/examples were checked **November 4, 2026**. NS-17 and mission data are fictional; no doses or treatment recommendations are supplied. Discussions are unscored and learning outcomes unvalidated. **LEARNING-GUIDE-2026.md** explains the evidence and sources.
 
-One player selects **Host co-op** and waits for the squad counter; friends select **Join a squadmate** and enter the host's reachable IPv4 address, normally port 7777. The host deploys after everyone joins. `127.0.0.1` reaches only the same computer. Use this same release on every PC.
+## Play together or contribute
 
-Direct-IP co-op has no matchmaking, relay, automatic NAT traversal or host migration. Sharing the ZIP does not connect separate homes' networks. Start with solo and same-LAN tests; separate-PC internet sessions remain unverified. Launchers do not change firewall or router settings.
+Everyone needs the **same complete release**. Choose **Host co-op**, have friends **Join a squadmate** using the host's reachable IPv4 address (normally port 7777), then deploy. `127.0.0.1` reaches only your own PC. Direct IP has no matchmaking, relay, automatic NAT traversal or host migration; separate-home internet play remains unverified.
 
-## Keep building with the team
+Editable source, project goals and complete team bundles are in the private [team repository](https://github.com/VM934/NeuroSignal) and [team releases](https://github.com/VM934/NeuroSignal/releases). Accept the invitation, read the [friends' quick start](https://github.com/VM934/NeuroSignal/blob/main/Distribution/Collaboration/FRIENDS_QUICK_START.md), and work on a personal branch. C++ changes need Unreal Engine 5.8.3, Windows C++ tools, rebuilding and testing. Older releases remain available for rollback.
 
-Saket and Shiam can play the public download immediately. Editable C++/Unreal assets, the project vision, [friends’ quick start](https://github.com/VM934/NeuroSignal/blob/main/Distribution/Collaboration/FRIENDS_QUICK_START.md), setup instructions, feedback templates and complete team bundles are in the private [team repository](https://github.com/VM934/NeuroSignal). Private access requires signing in and accepting the repository invitation. The quick start explains where to change gameplay, teaching content and interface code.
+## Exact-build checks and limits
 
-Playing needs no engine. Editing C++ needs Unreal Engine 5.8.3 and the Windows C++ toolchain, followed by rebuilding and testing. Keep the tested ZIP and main branch as a baseline; make a small personal branch and propose changes through a pull request. Coordinate before editing the same binary asset. Private team bundles are available from the [team releases](https://github.com/VM934/NeuroSignal/releases); check their version rather than assuming an older bundle contains the latest source.
+On the target laptop, six automated solo missions took **298.406 seconds**, including **65.401 seconds of aggregate combat** across **1,962 frames**: **30.000 FPS**, p95 **34.000 ms**, p99 **34.413 ms**, maximum **35.484 ms**, with none over 50 ms. Startup **3.439s**, shutdown **2.306s** and all declared combat/startup/shutdown goals passed, with normal exit 0. Review had **one of 6,099 frames over 50 ms**, maximum **105.263 ms**, cause unresolved. This was not globally hitch-free or a long thermal test. External power was reported; desktop apps/light document review continued without concurrent game/build/export/profiler/capture work.
 
-The [0.4.0 release](https://github.com/VM934/NeuroSignal-Play/releases/tag/v0.4.0-playtest.1) remains available for rollback. Its manual launcher, incompatible-build recovery, static REA analysis and longer benchmark are historical checks for that executable.
+The native passed **125 input checks, 14 evidence checks**, three-process loopback, and separate two-process loopback with **100 ms outgoing delay per endpoint** and verified settings readback. All exited normally. Actual extracted-ZIP solo routes produced **34 individually reviewed images** at 720p/1080p without blocking clipping/overlap. Extraction verified **56 payload files plus manifest**. See **FINAL-VERIFICATION.json** and the release checksum for exact identity and scope. Loopback does not establish real internet or multiplayer FPS.
 
-This is a prototype vertical slice with original code and documented Epic assets. Automated ideal aim and correct answers do not establish enjoyment, human difficulty or learning. Secondary text remains small at 720p. Physical-controller comfort, broad accessibility, fresh Windows PCs, longer sessions and subject-matter/learner validation remain future work. The existing Handshake Showcase uses the durable Latest release URL, which now resolves to 0.4.1. Its retained description and combat cover were recorded for 0.4.0. Showcase publication does not confirm competition eligibility or late-entry acceptance; this native Windows build does not implement the identified mission's browser/room-code format.
+Logs confirmed older-build rejection and its message, while a Windows permission prompt blocked interactive recovery verification; that check did not pass, and everyone must use **0.5.0-playtest.1**.
+
+Prototype art remains; portal traversal, building systems and commercial-shooter parity are outside this playtest. Secondary labels, accessibility, real-controller comfort, fresh PCs and human enjoyment/learning need further checks. Showcase publication does not confirm competition eligibility.
