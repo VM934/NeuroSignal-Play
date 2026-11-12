@@ -1,4 +1,14 @@
-# NeuroSignal: Signal Recovery
+# NeuroSignal: Breach Run
+
+[**Play the competition game in your browser**](https://neurosignal-breach-run.vin-mami10.chatgpt.site/)
+
+Create a room, share its six-letter code and play with up to five friends. Clear three waves and a boss, make six practical neuroscience and cybersecurity decisions, then extract together. The menu also offers all six lessons without combat. No game account or installation is required. Friends and Showcase reviewers use this same published browser version.
+
+Invited collaborators can edit the browser source in [the private project](https://github.com/VM934/NeuroSignal/tree/main/Browser) or download its source ZIP from [Private Latest](https://github.com/VM934/NeuroSignal/releases/latest).
+
+## Optional Windows first person playtest
+
+The download below is the separate Signal Recovery Windows edition. The browser link above is the competition entry.
 
 An original first-person cybersecurity and neuroscience game for one to three Windows players. Protect a fictional research archive through six encounters, recover a trustworthy reference record and decide what the evidence supports.
 
