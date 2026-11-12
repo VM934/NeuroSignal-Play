@@ -1,14 +1,8 @@
-# NeuroSignal: Breach Run
+# NeuroSignal: Signal Recovery
 
-[**Play the competition game in your browser**](https://neurosignal-breach-run.vin-mami10.chatgpt.site/)
+**The original 3D Unreal Windows game is the main NeuroSignal project.**
 
-Create a room, share its six-letter code and play with up to five friends. Clear three waves and a boss, make six practical neuroscience and cybersecurity decisions, then extract together. The menu also offers all six lessons without combat. No game account or installation is required. Friends and Showcase reviewers use this same published browser version.
-
-Invited collaborators can edit the browser source in [the private project](https://github.com/VM934/NeuroSignal/tree/main/Browser) or download its source ZIP from [Private Latest](https://github.com/VM934/NeuroSignal/releases/latest).
-
-## Optional Windows first person playtest
-
-The download below is the separate Signal Recovery Windows edition. The browser link above is the competition entry.
+[**Download the current 3D Windows playtest**](https://github.com/VM934/NeuroSignal-Play/releases/latest). Extract the whole player ZIP and open **Play NeuroSignal.cmd**. Friends use this same verified player download; invited collaborators can build on the [editable Unreal project](https://github.com/VM934/NeuroSignal).
 
 An original first-person cybersecurity and neuroscience game for one to three Windows players. Protect a fictional research archive through six encounters, recover a trustworthy reference record and decide what the evidence supports.
 
@@ -42,11 +36,15 @@ Everyone needs **0.9.4-playtest.1**, network protocol **12**. One player hosts, 
 
 The private team bundle supplies the playable executable together with editable source, assets, build scripts and feedback forms. Invited collaborators can use Unreal Engine 5.8.3 and Windows C++ tools to make a personal branch and test changes. [Private editable project](https://github.com/VM934/NeuroSignal) · [Team release 0.9.4](https://github.com/VM934/NeuroSignal/releases/tag/v0.9.4-playtest.1) · [Friends' quick start](https://github.com/VM934/NeuroSignal/blob/main/Distribution/Collaboration/FRIENDS_QUICK_START.md)
 
+## Earlier browser edition and competition link
+
+[Breach Run in a browser](https://neurosignal-breach-run.vin-mami10.chatgpt.site/) is a separate 2D implementation. The current Handshake entry points to it; it is not the 3D Windows game above. Its browser source and source ZIP do not contain the Unreal game. Further submission-link changes must identify the actual artifact and satisfy the competition's delivery requirements.
+
 ## Verification for this release
 
 The final native executable (`148FDAB05D22998AFA72BC7C3086B352E2C75E4CB452326C413F529B3057B02C`) passed a rendered solo mission and normal three-process loopback co-op from an extracted player package. The final independently extracted ZIP passed the standard 60 FPS rendered route with a normal exit and all 32 required captures; six selected images were visually inspected. A separate three-process native-package route passed with 100 ms packet lag, with the delay setting read back. All three peers completed the six encounters, three record reviews, reference recovery and six optional practice decisions. The version-mismatch test rejected protocol 11 and returned the protocol 12 client to solo standby with a normal exit; its graphical recovery was not verified.
 
-On the target ASUS UX581GV (i9-9980HK, RTX 2060 6 GB, 32 GB RAM), three automated solo missions sampled **148.97 seconds and 8,938 combat/objective frames** at **59.998 FPS**. Frame times were **16.85 ms p95**, **17.10 ms p99** and **18.12 ms maximum**, with **zero frames over 50 ms**. Startup to the first test tick took **5.10 seconds**, and requested shutdown to process exit took **2.31 seconds**. Measurement validity, normal exit and all declared pacing/startup/shutdown goals passed.
+In the November 11, 2026 test on the target ASUS UX581GV (i9-9980HK, RTX 2060 6 GB, 32 GB RAM), three automated solo missions sampled **148.97 seconds and 8,938 combat/objective frames** at **59.998 FPS**. Frame times were **16.85 ms p95**, **17.10 ms p99** and **18.12 ms maximum**, with **zero frames over 50 ms**. Startup to the first test tick took **5.10 seconds**, and requested shutdown to process exit took **2.31 seconds**. Measurement validity, normal exit and all declared pacing/startup/shutdown goals passed.
 
 These are automated ideal-aim routes on one laptop. Combat/objective timing aggregates normal encounters across three missions; it is not one continuous fight. The reports do not establish human comfort, difficulty, physical-controller operation, separate-PC/network connectivity, multiplayer frame pacing, long-term thermal stability or learning retention. Other Windows workload and power state were not independently controlled.
 
