@@ -1,55 +1,64 @@
 # NeuroSignal: Signal Recovery
 
-**The original 3D Unreal Windows game is the main NeuroSignal project.**
+**[Download the original 3D Windows game](https://github.com/VM934/NeuroSignal-Play/releases/latest).** Extract the entire player ZIP, open **Play NeuroSignal.cmd**, and choose **Deploy solo**. Friends and reviewers use the same player download. No editor, compiler, AI model, subscription or GitHub account is needed to play.
 
-[**Download the current 3D Windows playtest**](https://github.com/VM934/NeuroSignal-Play/releases/latest). Extract the whole player ZIP and open **Play NeuroSignal.cmd**. Friends use this same verified player download; invited collaborators can build on the [editable Unreal project](https://github.com/VM934/NeuroSignal).
+An original first-person cybersecurity and neuroscience co-op mission for one to three players. Protect a fictional research archive through six encounters, recover a trustworthy reference record and investigate what the evidence supports. This is a development playtest with prototype art and animation.
 
-An original first-person cybersecurity and neuroscience game for one to three Windows players. Protect a fictional research archive through six encounters, recover a trustworthy reference record and decide what the evidence supports.
+## Current player release: 0.9.5-playtest.1
 
-## Download and play
+[Versioned release](https://github.com/VM934/NeuroSignal-Play/releases/tag/v0.9.5-playtest.1) · [Player ZIP](https://github.com/VM934/NeuroSignal-Play/releases/download/v0.9.5-playtest.1/NeuroSignal-SignalRecovery-Windows-0.9.5-playtest.1.zip) · [Final verification](https://github.com/VM934/NeuroSignal-Play/releases/download/v0.9.5-playtest.1/FINAL-VERIFICATION.json) · [Longer performance check](https://github.com/VM934/NeuroSignal-Play/releases/download/v0.9.5-playtest.1/SUSTAINED-PERFORMANCE.json)
 
-Download [NeuroSignal-SignalRecovery-Windows-0.9.4-playtest.1.zip](https://github.com/VM934/NeuroSignal-Play/releases/download/v0.9.4-playtest.1/NeuroSignal-SignalRecovery-Windows-0.9.4-playtest.1.zip) from the [0.9.4 Windows release](https://github.com/VM934/NeuroSignal-Play/releases/tag/v0.9.4-playtest.1), or check the [Latest Windows release](https://github.com/VM934/NeuroSignal-Play/releases/latest). Extract the entire ZIP and double-click **Play NeuroSignal.cmd**. Choose Deploy solo, Host co-op or Join a squadmate.
+The default is **1280×720 fullscreen**, 100% scene scale, FXAA, GI quality 1 and a **90 FPS cap**. Alt+Enter toggles fullscreen; `Play NeuroSignal.cmd /windowed` starts in a window. A separate 30 FPS launcher is included. Keep every extracted file together. The ZIP includes the learning guide, controls, Microsoft runtime prerequisites, credits and file hashes.
 
-The package includes controls, runtime prerequisites, learning sources and file hashes. Playing requires no editor, compiler, AI model, subscription or GitHub account. The standard **Play NeuroSignal.cmd** selects 1280x720 output, 100% scene scale, FXAA, GI quality 1 and a 60 FPS cap; **Play NeuroSignal - 30 FPS.cmd** retains the same graphics with a 30 FPS cap.
+This update adds tap-slide continuation, a collision-safe co-op crouch-to-jump fix, clearer slide and recovery instructions, fitted cache-sign backings and more practical feedback on medicine ingredients, overdose emergency response and unexpected sign-in approvals.
 
 ## Fight, recover and investigate
 
-Each operation pairs an eastern breach with a western counterattack. Sprint, slide through the north Low Route, use cover and take violet Transfer Gates between flanks. Reloading with rounds left takes 1.15 seconds, versus 1.65 seconds from empty. Two confirmed rifle hits during a surviving drone's charge interrupt its shot.
+Sprint, tap crouch to slide through the Low Route, reload behind cover and use violet Transfer Gates to switch flanks. Jumping or aiming ends a slide. An accepted slide continues after releasing crouch, then stands; holding crouch finishes crouched. Two confirmed hits during a surviving drone's charge interrupt its shot. Hit, defeat, threat and reload feedback distinguish the results of your actions.
 
-Version **0.9.4-playtest.1** adds a **100 ms jump buffer** for short taps and presses just before landing. Firing temporarily suppresses ordinary sprint while preserving held or toggled sprint intent; releasing fire resumes eligible sprint, and releasing sprint during fire cancels that resumption. A validated slide can continue while shooting. Crouching and standing blend the cosmetic camera height over **0.16 seconds**. Restrained weapon-only turn and strafe motion, grounded movement bob and timed reload dip and tilt use the existing rifle mesh. A filling reload meter shows the remaining seconds.
+Each operation pairs an eastern breach with a western counterattack. In the final operation, inspect three caches: a record can be intact yet lack the required carrier, or match the carrier but fail integrity. Recover the record that passes both checks, deliver a read-only copy and defend 30 seconds of verification against two reinforcement batches. Clear the surviving drones, then review the comparison at the central console.
 
-In the final encounter, inspect three caches. An intact untreated record lacks the required carrier. Another has matching carrier conditions but fails integrity. Recover the record that passes both checks, deliver the squad's read-only copy and defend 30 seconds of verification against two reinforcement batches. Clear the surviving drones before reviewing the compound comparison.
+The three investigations ask what access an app needs, whether an unreliable neural recording establishes a receptor mechanism, and whether a matched-carrier comparison supports a separate compound effect or clinical benefit. Wrong choices give explanatory feedback and allow retry. Everyone marks ready separately after reviewing the result.
 
-The three investigations ask what access an app needs, whether a faulty neural recording supports a mechanism claim and whether a matched-carrier comparison supports a drug claim. Wrong choices give feedback and retry. Everyone marks ready after reviewing the result.
+## Put the lessons to use
 
-## Make the lessons useful
+After solving a record, press **F / controller X** or select **Try an Everyday Decision**. Open Field Notes with **Tab / View**. Six optional practice decisions cover:
 
-After solving a record, press **F / controller X** or select **Try an Everyday Decision**. Field Notes open with **Tab / View**. Science and Cybersecurity drills practice decisions about sedating medicines, caffeine and fatigue, emergency help after naloxone, possible family voice-cloning scams, suspicious device-code approvals and testing a backup restore.
+- Sedating medicines and duplicate active ingredients.
+- Caffeine, too little sleep and choosing a rested driver.
+- Emergency help after naloxone in a possible mixed-drug overdose.
+- Responding after approving an unexpected device sign-in code.
+- Verifying a possible family voice-cloning scam through another channel.
+- Testing a backup restore without replacing the original files.
 
-A correct Science answer now offers **Next: Cyber Decision** for the same record; a correct Cybersecurity answer offers **Return to Record Review**. Wrong answers offer **Retry This Decision**. Field Notes still let you choose either topic directly. Local progress records up to **six correct practice decisions** per mission, counting each once. Notes, menus and record changes preserve it; starting a new mission resets it. Practice is optional, and returning to review leaves each player's readiness unchanged. This counter records choices, not demonstrated learning or retention.
+Correct Science answers lead to the paired Cybersecurity decision, then back to record review. Progress counts each correct decision once and resets for a new mission; it records choices, not demonstrated learning retention. The study, compound and data are fictional. The included **LEARNING-GUIDE-2026.md** links primary sources and labels dated examples, including a CISA vulnerability snapshot rather than a live feed. The game is general education, not personal medical advice.
 
-The required recovery task applies matched experimental conditions and recovered-record integrity. The compound, measurements and carrier amounts are fictional. **LEARNING-GUIDE-2026.md** explains the reasoning and links primary sources. [NIH/NCATS assay guidance](https://www.ncbi.nlm.nih.gov/sites/books/NBK92001/) · [NIST recovery guidance](https://www.nccoe.nist.gov/sites/default/files/legacy-files/di-nist-sp1800-11b-final.pdf)
+## Play with friends and build on it
 
-## Play with friends and build on the project
+Everyone in a squad needs **0.9.5-playtest.1 / network protocol 13**. One player hosts; up to two friends join a reachable IPv4 address, normally on UDP 7777. There is no matchmaking or Internet relay. Separate-PC and Internet connectivity require their own tests; loopback tests on one laptop do not establish them.
 
-Everyone needs **0.9.4-playtest.1**, network protocol **12**. One player hosts, and up to two friends join a reachable IPv4 address, normally on UDP 7777. Keep the complete extracted Windows folder together.
+Invited collaborators can use the [private editable Unreal project](https://github.com/VM934/NeuroSignal) and [matching team release](https://github.com/VM934/NeuroSignal/releases/tag/v0.9.5-playtest.1). The source handoff contains the same player executable, editable source/assets, build scripts, learning context and feedback forms. [Friends' quick start](https://github.com/VM934/NeuroSignal/blob/main/Distribution/Collaboration/FRIENDS_QUICK_START.md) · [Development setup](https://github.com/VM934/NeuroSignal/blob/main/DEVELOPING.md).
 
-The private team bundle supplies the playable executable together with editable source, assets, build scripts and feedback forms. Invited collaborators can use Unreal Engine 5.8.3 and Windows C++ tools to make a personal branch and test changes. [Private editable project](https://github.com/VM934/NeuroSignal) · [Team release 0.9.4](https://github.com/VM934/NeuroSignal/releases/tag/v0.9.4-playtest.1) · [Friends' quick start](https://github.com/VM934/NeuroSignal/blob/main/Distribution/Collaboration/FRIENDS_QUICK_START.md)
+## What was verified
 
-## Earlier browser edition and competition link
+The final executable `B7E6C26E9396529EE291CF6C3EA5970E6CF0AFBC317D89A1848AEDA14ED2FD66` was built from source commit `b1e9be7478f19ba8b9b7db49db212e538961209a`. The final ZIP was independently extracted and checked file by file. That extraction completed a rendered solo mission, all six encounters, reference recovery, all three investigations and all six practice decisions, with a natural exit. All 32 required screenshots were individually reviewed. Normal and 100 ms delayed three-process co-op routes also ran from the extracted final ZIP; all peers completed their missions and exited normally. The old-build rejection check verified protocol-11 rejection and protocol-13 solo standby; graphical recovery was not checked.
 
-[Breach Run in a browser](https://neurosignal-breach-run.vin-mami10.chatgpt.site/) is a separate 2D implementation. The current Handshake entry points to it; it is not the 3D Windows game above. Its browser source and source ZIP do not contain the Unreal game. Further submission-link changes must identify the actual artifact and satisfy the competition's delivery requirements.
+On November 14, 2026, the ASUS UX581GV test laptop (i9-9980HK, RTX 2060 6 GB, 32 GB RAM) recorded these separate workloads at the default fullscreen profile:
 
-## Verification for this release
+| Workload | Accepted combat | Average | p95 / p99 | Maximum | Frames over 50 ms |
+| --- | --- | --- | --- | --- | --- |
+| Ordinary controls, nine mostly stationary first-wave attempts | 121.53 s / 10,917 frames | 89.83 FPS | 11.118 / 11.294 ms | 27.301 ms | 0 |
+| Automated route, three completed missions | 150.54 s / 13,542 frames | 89.95 FPS | 11.618 / 11.978 ms | 23.594 ms | 0 |
 
-The final native executable (`148FDAB05D22998AFA72BC7C3086B352E2C75E4CB452326C413F529B3057B02C`) passed a rendered solo mission and normal three-process loopback co-op from an extracted player package. The final independently extracted ZIP passed the standard 60 FPS rendered route with a normal exit and all 32 required captures; six selected images were visually inspected. A separate three-process native-package route passed with 100 ms packet lag, with the delay setting read back. All three peers completed the six encounters, three record reviews, reference recovery and six optional practice decisions. The version-mismatch test rejected protocol 11 and returned the protocol 12 client to solo standby with a normal exit; its graphical recovery was not verified.
+The ordinary CSV excludes its first 15 seconds, menus/outcomes and padded transitions; the selected capture began after startup and recorded zero horizontal speed. The longer route used automated ideal aim, a ten-second warmup and phase exclusions. Its total route distance was 198.73 metres, which does not establish continuous moving-combat duration. All accepted combat frames were focused under the engine's policy, with no observed focus transitions. Startup was 5.61 seconds; shutdown was 2.64 seconds. No build, compression or profiler capture ran during that longer measurement.
 
-In the November 11, 2026 test on the target ASUS UX581GV (i9-9980HK, RTX 2060 6 GB, 32 GB RAM), three automated solo missions sampled **148.97 seconds and 8,938 combat/objective frames** at **59.998 FPS**. Frame times were **16.85 ms p95**, **17.10 ms p99** and **18.12 ms maximum**, with **zero frames over 50 ms**. Startup to the first test tick took **5.10 seconds**, and requested shutdown to process exit took **2.31 seconds**. Measurement validity, normal exit and all declared pacing/startup/shutdown goals passed.
+These results apply to the recorded workloads on this laptop. They do not establish human control comfort, physical-controller use, multiplayer frame pacing, long-term thermal stability, other hardware performance or learning retention. A frame cap alone is not a result. Small secondary labels at 720p remain a useful accessibility improvement.
 
-These are automated ideal-aim routes on one laptop. Combat/objective timing aggregates normal encounters across three missions; it is not one continuous fight. The reports do not establish human comfort, difficulty, physical-controller operation, separate-PC/network connectivity, multiplayer frame pacing, long-term thermal stability or learning retention. Other Windows workload and power state were not independently controlled.
+Player ZIP: **414,820,365 bytes**. SHA-256: **0306615BDF95F8D65E09F44C488688E6D6B09BE67938212499415067A0C0D21C**. Use the adjacent release checksum to verify it.
 
-The [release verification report](https://github.com/VM934/NeuroSignal-Play/releases/download/v0.9.4-playtest.1/FINAL-VERIFICATION.json) identifies the tested executable and release checks. Use the release's adjacent checksum to verify the complete ZIP.
+## Competition page and earlier browser work
 
-This is a development playtest with prototype art. Automated routes on one computer do not establish physical-controller comfort, separate-PC/network connectivity or learning retention; those need their own playtests. This download is the **Windows Unreal edition**. The **browser competition edition** has separate source and hosting.
+The [existing Handshake project](https://app.joinhandshake.com/ai-showcase/projects/3706502) is being prepared for the account holder's final review and Save with this 3D release. A saved project page does not itself confirm which revision judges will review or whether a Windows download satisfies the mission's browser-delivery requirements; organizer confirmation is requested separately.
 
-Player ZIP size: **414,810,227 bytes**. SHA-256: **570991A713C3C8B30F58CACA95D8E0B08937AD9B09C8226DECAE730532EFEAA5**.
+[Breach Run in a browser](https://neurosignal-breach-run.vin-mami10.chatgpt.site/) is a historical separate 2D implementation. Its source and measurements do not identify or validate this original Unreal 3D Windows game.
+
